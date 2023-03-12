@@ -1,5 +1,5 @@
 # tochyodikwa
-is a music player for Android based on Google's Material Design standards. The point of Jockey is to be a simple, lightweight media player with features designed for music enthusiasts and casual listeners alike. Currently Jockey is notably lacking a few enthusiast features like gapless playback, crossfade and replay gain which may be added in the future.
+is a music player for Android based on Google's Material Design standards. The point is to be a simple, lightweight media player with features designed for music enthusiasts and casual listeners alike. Currently Jockey is notably lacking a few enthusiast features like gapless playback, crossfade and replay gain which may be added in the future.
 
 ### Permissions
 #### Android 7.0 and higher
@@ -15,13 +15,13 @@ Used to prevent tochyodikwa from using mobile data (if this preference is enable
 **Keep awake**  
 Used to play music while the device's screen is off  
 **Install shortcuts**  
-Allows tochyodikwa to (optionally) add shortcuts to Jockey to the launcher. This is only done when explicitly requested from the settings page and is intended so that the launcher icon matches the chosen theme
+Allows tochyodikwa to (optionally) add shortcuts to the launcher. This is only done when explicitly requested from the settings page and is intended so that the launcher icon matches the chosen theme
 
 ### Setting up the project
  - Download, install and launch [Android Studio]
  - Clone the repository
  - In Android Studio, select "Import Project..." from the file menu
- - Select Jockey's repository that you just cloned
+ - Select tochyodikwa's repository that you just cloned
  - Wait while Gradle begins to build the project (Android Studio may need to restart)
 
 *Note:* To get tochyodikwa to compile, you'll need to either setup Crashlytics using your own API key, or remove the dependency and all logging calls. You can specify your own API key by making a new file in `app/fabric.properties` and add the following lines:  
